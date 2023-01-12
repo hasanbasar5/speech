@@ -126,7 +126,7 @@
             spctxt=txtbox.value;
             let speech=new SpeechSynthesisUtterance();
             speech.text=spctxt;
-            speech.speak(speech);
+            SpeechSynthesis.speak(speech);
         })
       /*   let a=5;
         for(i=0;i<a;i++){
